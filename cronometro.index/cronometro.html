@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.cronometro/br.com</title>
+    <link rel="stylesheet" href="cronometro.css" type="text/css">
+</head>
+<body>
+   <fieldset class="conteiner">
+    <h1><i>cronometro</i></h1>
+    <h5>Faça sua corrida aqui é marque seu Tempo percorrido!!</h5>
+
+    <div class="grupo01" id="zerou">
+        <span id="hour">00</span>:<span id="min">00</span>:<span id="sec">00</span>:<span id="mile">000</span>
+    </div>
+
+    <div class="grupo02">
+        <input type="button" value="Iniciar" id="inicio" class="input01" onclick="clicar1()" >
+        <input type="button" value="Parar" id="parar" class="input02" onclick="clicar2()">
+        <input type="button" value="Reiniciar" id="reiniciar" class="input03" onclick="clicar3()">
+    </div>
+     
+       
+
+    <script src="cronometro.js"></script>
+   </fieldset>
+</body>
+</html>
